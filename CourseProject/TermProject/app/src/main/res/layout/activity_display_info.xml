@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".DisplayInfo"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/Name"
+        android:layout_width="100dp"
+        android:layout_height="30dp"
+        android:text="NAME"
+        android:textAlignment="center"
+        android:layout_marginLeft="130dp"
+        android:layout_marginTop="50dp"/>
+
+    <TextView
+        android:id="@+id/printname"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:textAlignment="textStart"
+        android:gravity="start" />
+
+    <TextView
+        android:id="@+id/Department"
+        android:layout_width="100dp"
+        android:layout_height="30dp"
+        android:text="Department"
+        android:textAlignment="center"
+        android:layout_marginLeft="130dp"
+        android:layout_marginTop="40dp"/>
+
+    <TextView
+        android:id="@+id/printdepartment"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:textAlignment="textStart"
+        android:gravity="start" />
+
+    <TextView
+        android:id="@+id/Category"
+        android:layout_width="100dp"
+        android:layout_height="30dp"
+        android:text="Category"
+        android:textAlignment="center"
+        android:layout_marginLeft="130dp"
+        android:layout_marginTop="40dp"/>
+
+    <TextView
+        android:id="@+id/printcategory"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:textAlignment="textStart"
+        android:gravity="start" />
+
+    <TextView
+        android:id="@+id/RollNo"
+        android:layout_width="100dp"
+        android:layout_height="30dp"
+        android:text="RollNo"
+        android:textAlignment="center"
+        android:layout_marginLeft="130dp"
+        android:layout_marginTop="40dp"/>
+
+    <TextView
+        android:id="@+id/printrollno"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:textAlignment="textStart"
+        android:gravity="start" />
+
+</LinearLayout>
