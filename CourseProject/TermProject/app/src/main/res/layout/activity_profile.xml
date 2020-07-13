@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Profile"
+    android:orientation="vertical">
+
+    <Button
+        android:id="@+id/logout"
+        android:layout_width="100dp"
+        android:layout_height="40dp"
+        android:text="LOG OUT"
+        android:clickable="true"
+        android:layout_marginLeft="310dp"/>
+
+    <Button
+        android:id="@+id/makeentry"
+        android:layout_width="150dp"
+        android:layout_height="40dp"
+        android:text="Make ENTRY"
+        android:clickable="true"
+        android:layout_marginLeft="250dp"/>
+</LinearLayout>
